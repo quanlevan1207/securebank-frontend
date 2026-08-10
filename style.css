@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #003366;
+  color: white;
+  padding: 16px 24px;
+}
+header nav a {
+  color: #aad4ff;
+  margin-left: 16px;
+  text-decoration: none;
+}
+main {
+  padding: 24px;
+}
+.login-box {
+  max-width: 360px;
+  margin: 80px auto;
+  background: white;
+  padding: 32px;
+  border-radius: 8px;
+}
+.login-box h2 {
+  margin-bottom: 20px;
+}
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.stats {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  padding: 20px 28px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
